@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+
 public class Solution_1949_등산로조성{
 	static int N;
 	static int K;
