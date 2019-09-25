@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Solution_1949_µî»ê·ÎÁ¶¼º {
+public class Solution_1949_ë“±ì‚°ë¡œì¡°ì„±{
 	static int N;
 	static int K;
 	static int[][] map;
