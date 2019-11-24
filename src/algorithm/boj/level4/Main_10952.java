@@ -8,9 +8,10 @@ public class Main_10952 {
 		int A = sc.nextInt();
 		int B = sc.nextInt();
 		while(A != 0 && B != 0) {
+			
+			System.out.println(A+B);
 			A = sc.nextInt();
 			B = sc.nextInt();
-			System.out.println(A+B);
 		}
 	}
 }
