@@ -1,4 +1,4 @@
-package algorithm.swexpertacademy;
+package algorithm.swexpertacademy.swtest;
 
 import java.io.*;
 import java.util.*;
