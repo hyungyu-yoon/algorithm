@@ -1,4 +1,4 @@
-package algorithm.boj;
+package algorithm.boj.sstest;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
