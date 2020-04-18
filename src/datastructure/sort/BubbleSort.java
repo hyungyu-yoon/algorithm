@@ -1,4 +1,4 @@
-package datastructure.sort.bubble;
+package datastructure.sort;
 
 import java.util.Arrays;
 
