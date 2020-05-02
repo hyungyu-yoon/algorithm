@@ -13,7 +13,7 @@ public class Main_17779_게리멘더링2 {
 		N = Integer.parseInt(br.readLine());
 
 		A = new int[N + 2][N + 2];
-		
+		R = new int[N + 2][N + 2];
 		StringTokenizer st = null;
 		for (int i = 1; i <= N; i++) {
 			st = new StringTokenizer(br.readLine());
@@ -21,16 +21,14 @@ public class Main_17779_게리멘더링2 {
 				A[i][j] = Integer.parseInt(st.nextToken());
 			}
 		}
-
-		
 		int ans = Integer.MAX_VALUE;
 		
 		for (int x = 1; x <= N; x++) {
 			for (int y = 1; y <= N; y++) {
 				for (int d1 = 1; d1 <= N; d1++) {
 					for (int d2 = 1; d2 <= N; d2++) {
-						R = new int[N + 2][N + 2];
 						if (x < x + d1 + d2 && x + d1 + d2 <= N && 1 < y-d1 && y-d1 < y && y+d2 <= N) {
+							init();
 							for (int i = 0; i <= d1; i++) {
 								R[x+i][y-i] = 5;
 								R[x+d2+i][y+d2-i] = 5;
@@ -108,7 +106,12 @@ public class Main_17779_게리멘더링2 {
 			}
 		}
 		System.out.println(ans);
-
+	}
+	
+	static void init() {
+		for (int i = 1; i <= N; i++) {
+			Arrays.fill(R[i], 0);
+		}
 	}
 
 }
