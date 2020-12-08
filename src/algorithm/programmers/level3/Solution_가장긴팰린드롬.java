@@ -1,6 +1,6 @@
 package algorithm.programmers.level3;
 
-public class Soultion_가장긴팰린드롬 {
+public class Solution_가장긴팰린드롬 {
     public int solution(String s) {
         for (int i = s.length(); i > 1; i--) {
             for (int j = 0; j  + i <= s.length(); j++) {
@@ -22,7 +22,7 @@ public class Soultion_가장긴팰린드롬 {
     }
 
     public static void main(String[] args) {
-        Soultion_가장긴팰린드롬 s = new Soultion_가장긴팰린드롬();
+        Solution_가장긴팰린드롬 s = new Solution_가장긴팰린드롬();
         System.out.println(s.solution("ABCCBA"));
     }
 }
